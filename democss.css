@@ -6,12 +6,53 @@
     background-color: rgb(229, 245, 245);
     color: rgba(221, 121, 200, 0.925);
 }
-h1,h2{
-    color: blueviolet;
-}
 #para{
     background-color: rgb(185, 166, 202);
 }
 .word{
     color: aqua;
 }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-decoration: solid;
+    font-size: 28px;
+    text-decoration: underline;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: justify;
+    color: rgba(117, 88, 244, 0.827);
+    background-color: rgb(193, 239, 239);
+}
+.bord{
+    /*border-style:double;
+    border-color: rgb(0, 0, 0);*/
+    border: 4px double black;
+    border-top-style: dotted;
+    border-radius: 30px;
+    /*margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;*/
+    margin: 50px 50px 50px 50px;
+    padding: 15px 15px 15px 15px;
+}
+a:link {
+  color: navy;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: rgb(140, 0, 255);
+}
+/*.link{
+    background-color: white;
+    color: rgb(79, 79, 248);
+
+}*/
