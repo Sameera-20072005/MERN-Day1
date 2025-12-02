@@ -7,38 +7,87 @@
 </head>
 <body>
     <h1>Contact Form</h1>
-    <form>
+    <form id="myForm">
 
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        <!-- Name -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
 
-    <label for="age">Age:</label><br>
-    <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+        <!-- Password with Eye -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <br><br>
 
-    <label>Gender:</label><br>
-    <input type="radio" id="male" name="gender" value="Male">
-    <label for="male">Male</label><br>
+        <!-- Age -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
 
-    <input type="radio" id="female" name="gender" value="Female">
-    <label for="female">Female</label><br><br>
+        <!-- Website -->
+        <label for="website">Website:</label><br>
+        <input type="url" id="website" name="website" placeholder="Enter your website URL"><br><br>
 
-    <label>Hobbies:</label><br>
-    <input type="checkbox" id="h1" name="hobby" value="Reading">
-    <label for="h1">Reading</label><br>
+        <!-- File Upload -->
+        <label for="file">Upload File:</label><br>
+        <input type="file" id="file" name="file"><br><br>
 
-    <input type="checkbox" id="h2" name="hobby" value="Sports">
-    <label for="h2">Sports</label><br>
+        <!-- Date -->
+        <label for="date">Choose Date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
 
-    <input type="checkbox" id="h3" name="hobby" value="Music">
-    <label for="h3">Music</label><br><br>
+        <!-- Time -->
+        <label for="time">Choose Time:</label><br>
+        <input type="time" id="time" name="time"><br><br>
 
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..."></textarea><br><br>
+        <!-- Date & Time -->
+        <label for="datetime">Choose Date & Time:</label><br>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
 
-    <input type="submit" value="Submit">
+        <!-- Week -->
+        <label for="week">Choose Week:</label><br>
+        <input type="week" id="week" name="week"><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="h1" name="hobby" value="Reading">
+        <label for="h1">Reading</label><br>
+
+        <input type="checkbox" id="h2" name="hobby" value="Sports">
+        <label for="h2">Sports</label><br>
+
+        <input type="checkbox" id="h3" name="hobby" value="Music">
+        <label for="h3">Music</label><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..."></textarea><br><br>
+
+        <!-- Course Dropdown -->
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="">-- Choose a Course --</option>
+            <option value="cse">Computer Science</option>
+            <option value="ece">Electronics & Communication</option>
+            <option value="it">Information Technology</option>
+            <option value="mech">Mechanical Engineering</option>
+            <option value="civil">Civil Engineering</option>
+        </select>
+        <br><br>
+
+        <!-- Submit & Reset -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
     </form>
 </body>
 </html>
